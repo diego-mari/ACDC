@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AC/DC - Back in Black</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <a name="band">
+        <div class="band"><h1>Back in Black</h1></div>
+        <a name="album">
+        <table class="album" border="0" cellspacing="0">
+            <tr>
+                <td>1.</td>
+                <td>Hells Bells</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Shoot to Thrill</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>What Do You Do for Money Honey</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Given the Dog a Bone</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Let Me Put My Love Into You</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>Back in Black</td>
+            </tr>
+            <tr>
+                <td>7.</td>
+                <td>You Shook Me All Night Long</td>
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>Have a Drink on Me</td>
+            </tr>
+            <tr>
+                <td>9.</td>
+                <td>Shake a Leg</td>
+            </tr>
+            <tr>
+                <td>10.</td>
+                <td>Rock and Roll Ain't Noise Pollution</td>
+            </tr>
+        </table>
+        <a name="purchase">
+        <form method="post" class="purchase">
+            <div class="input-data">
+                <div id="dati">
+                    <input type="text" name="name" placeholder="Nome">
+                    <input type="text" name="address" placeholder="Indirizzo">
+                    <input type="number" name="CAP" placeholder="CAP" min="0" max="99999">
+                    <input type="text" name="city" placeholder="Città">
+                    <input type="text" name="e-mail" placeholder="E-mail">
+                </div>
+                <div id="brani">
+                    <input type="number" name="card-num" placeholder="Numero Carta" min="0">
+                    <select name="card-circuit">
+                        <option value="MC">MasterCard</option>
+                        <option value="VISA">Visa</option>
+                    </select>
+                    <input type="number" name="ccv" placeholder="CCV" min="0" max="999">
+                    <select name="track">
+                        <option value="1">Hells Bells</option>
+                        <option value="2">Shoot to Thrill</option>
+                        <option value="3">What Do You Do for Money Honey</option>
+                        <option value="4">Given the Dog a Bone</option>
+                        <option value="5">Let Me Put My Love Into You</option>
+                        <option value="6">Back in Black</option>
+                        <option value="7">You Shook Me All Night Long</option>
+                        <option value="8">Have a Drink on Me</option>
+                        <option value="9">Shake a Leg</option>
+                        <option value="10">Rock and Roll Ain't Noise Pollution</option>
+                    </select>
+                    <select name="format">
+                        <option value="m4a">.m4a</option>
+                        <option value="flac">.flac</option>
+                        <option value="mp3" selected>.mp3</option>
+                        <option value="mp4">.mp4</option>
+                        <option value="wav">.wav</option>
+                        <option value="wma">.wma</option>
+                        <option value="aac">.aac</option>
+                    </select>
+                </div>
+            </div>
+            <input type="button" value="Acquista" class="purchase-btn">
+        </form>
+    </body>
+</html>
